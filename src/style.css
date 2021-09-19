@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&family=Philosopher:ital@1&display=swap');
+
+body, html {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, p {
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+#tabs {
+    display: flex;
+    justify-content: space-around;
+    width: 45vw;
+    align-items: center;
+    
+}
+
+
+#logo {
+    width: 10vw;
+}
+
+
+/* Fade transition when navigation through pages */
+.fade {
+    animation-duration: 1s;
+    animation-name: fade;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#home-content {
+    margin-top: 2vh;
+    background-image: url("boba.jpg");
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#order-now {
+    background: #72c630;
+    color: white;
+    text-decoration: none;
+    border: none;
+    transition-duration: 0.4s;
+    border: solid 3px transparent;
+    width: 10vw;
+    font-size: 1.2vw;
+    padding-top: 0.6em;
+    padding-bottom: 0.3em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#order-now:hover {
+    background: white;
+    color: #72c630;
+    border: 3px #72c630 solid;
+    
+}
+
+#slogan {
+    font-size: 5vw;
+    margin-bottom: 5vh;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#home, #menu, #contact {
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#home:hover, #menu:hover, #contact:hover {
+    color: #72c630;
+    
+}
+
+#location-img {
+    width: 30%;
+    height: auto;
+}
+
+#contact-content {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#location-area {
+    font-size: 3.5em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#location-address {
+    font-size: 2em;
+}
+
+#menu-content {
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+}
+
+#left-menu, #right-menu, #item-img {
+    padding: 3em;
+}
+
+#left-menu {
+    width: 30%;
+}
+
+#right-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    column-count: 2;
+    font-size: 1em;
+}
+
+li {
+    padding-bottom: .2em;
+    font-weight: bold;
+}
+
+/* Image on menu page */
+#item-img {
+    height: auto;
+}
+
+.menu-category {
+    border-bottom: solid 0.1em black;
+}
+
+.menu-title {
+    text-align: left;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 1.4em;
+}

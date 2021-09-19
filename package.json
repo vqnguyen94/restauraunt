@@ -1,0 +1,25 @@
+{
+  "name": "restauraunt",
+  "version": "1.0.0",
+  "description": "Restauraunt page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vqnguyen94/restauraunt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vqnguyen94/restauraunt/issues"
+  },
+  "homepage": "https://github.com/vqnguyen94/restauraunt#readme",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
